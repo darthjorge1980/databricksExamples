@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Databricks
+.databricks/
+*.dbc
+
+# Secrets and credentials (NEVER commit these)
+*.env
+.env.*
+config/credentials*
+config/*.share
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# Data files (too large for git)
+*.csv
+*.parquet
+*.json
+!*.example.json
+data/
